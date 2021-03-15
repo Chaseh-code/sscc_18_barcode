@@ -16,7 +16,7 @@ string inputCheck(string);
 int main() {
 // should add a piece of code that prints the last incrementing number from the csv file, so the user would know what that last number would be.
     vector<string> barcodes;
-    ofstream file("Hollister_Barcodes.txt");
+    ofstream file("FootLocker_Barcodes.txt");
     const string APP_ID= "00"; // sets barcode as SSCC_18
     const string PACK_TYPE = "0"; // Determines the type of package being shipped
     const string MANUFACTURER_NUM = "0016604"; 
